@@ -17,7 +17,7 @@ public class clienteSum {
             for (int i = 0; i < 2; i++)
             {
                 //Se escribe en el servidor usando su flujo de datos
-            	linea =JOptionPane.showInputDialog(null,"ingrese el valor del numero "+(i+1)) ;//obtiene los valores deseados
+            	linea =JOptionPane.showInputDialog(null,"ingrese el valor del numero entero "+(i+1)) ;//obtiene los valores deseados
             	alServidor.println(linea);    //envia al servidor            
             } 
             
